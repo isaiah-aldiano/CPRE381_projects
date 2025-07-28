@@ -1,0 +1,13 @@
+# Ignore everything by default
+*
+
+# Allow .vhd files
+!*.vhd
+!*.s
+!*.asm
+!*.sh
+# Allow directories (so .vhd files inside them are not ignored)
+!*/
+
+# Optionally, allow .gitignore itself to be tracked
+!.gitignore
